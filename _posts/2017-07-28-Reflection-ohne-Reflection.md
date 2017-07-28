@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2017-07-28
-title:  Reflection ohne Reflection: Properties lesen und setzen per Databinding 
+title: Reflection ohne Reflection &#58; Properties lesen und setzen per Databinding 
 ---
 
 Nehmen wir an, wir entwickeln ein UserControl, dass die DependencyProperty `TextPath` vom Typ `string` bereitstellt. Diese Property kann der Anwender im XAML-Code setzen um das Steuerelement zu veranlassen um den Wert einer bestimmten Property seines DataContexts auszulesen oder zu setzen. Das riecht danach, das Problem mit handelsüblicher Reflection zu lösen:
