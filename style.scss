@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -202,6 +202,7 @@ img {
   letter-spacing: 1px;
 
   @include mobile {
+    font-size: 28px;
     margin: 9px 0;
   }
 }
@@ -261,17 +262,33 @@ nav {
 .post {
 
   h1 {
+    color: $orange;
     a { 
     color: $orange;
     }
   }
-
+  
   .highlight {
     overflow: auto;
+
+    pre {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: $code;
+    font-size: 16px;
+    border: 0px;
+    background: $lightGray;
+    }
   }
 
   p {
     text-align: justify;
+  
+    code {
+      background: $lightGray;
+      padding: 3px;
+    }
   }
 
   blockquote {
