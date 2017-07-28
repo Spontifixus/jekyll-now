@@ -1,5 +1,6 @@
 ---
 layout: post
+date: 2017-7-28
 title:  Reflection ohne Reflection: Properties lesen und setzen per Databinding 
 ---
 
