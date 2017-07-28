@@ -231,6 +231,7 @@ nav {
   }
 
   a {
+    margin-left: 10px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -287,6 +288,14 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+
+  a {
+    margin-left: 10px;
+  
+    @include mobile {
+      margin-left: 5px;
+    }
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
