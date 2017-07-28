@@ -272,11 +272,11 @@ nav {
     overflow: auto;
 
     pre {
-    -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none;
+  	-moz-box-shadow: none;
+  	box-shadow: none;
     font-family: $mono;
-    font-size: 16px;
+    font-size: 15px;
     border: 0px;
     background: $lightGray;
     }
@@ -288,7 +288,8 @@ nav {
     code {
       background: $lightGray;
       font-family: $mono;
-      padding: 3px;
+      font-size: 15px;
+      padding: 0 3px;
     }
   }
 
