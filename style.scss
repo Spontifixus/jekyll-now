@@ -341,19 +341,19 @@ footer {
 // Custom styles
 
 ul {
-  .post-tag {
+  .post-tags {
     list-style-type: none;
-    margin: 20px 0 0 0;
+    padding-left: 0;
 
     li {
       float: left;
       margin: 10px 10px 0 0;
       background: $lightGray;
       border: 1px solid $gray;
-      padding: 2px 5px;
+      padding: 4px 5px;
       text-transform: lowercase;
       font-size: 14px;
-      color: $darkGray;
+      color: $gray;
     }
   }
 }
