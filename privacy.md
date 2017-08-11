@@ -24,7 +24,7 @@ Weitere Informationen zu Google Web Fonts finden Sie in de [Developer FAQ][6] un
 
 ### Datenschutzerklärung für die Nutzung von Google Analytics
 
-Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA.
+Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die [Google Inc., 1600 Amphitheatre Parkway Mountain View, CA 94043, USA][5].
 
 Google Analytics verwendet so genannte "Cookies". Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.
 
