@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Reflection ohne Reflection&#58; Properties lesen und setzen per Databinding 
+tags: .net,c#,data-binding,property-path-syntax,reflection
 ---
 
 Nehmen wir an, wir entwickeln ein UserControl, dass die DependencyProperty `TextPath` vom Typ `string` bereitstellt. Diese Property kann der Anwender im XAML-Code setzen um das Steuerelement zu veranlassen um den Wert einer bestimmten Property seines DataContexts auszulesen oder zu setzen. Das riecht danach, das Problem mit handelsüblicher Reflection zu lösen:
@@ -14,9 +15,10 @@ var result = propertyInfo.GetValue(this.DataContext, null);
 
 Das klappte auch hervorragend. Bis einer der Anwender der Komponente auf die (absolut nachvollziehbare) Idee kam, den Namen der auszulesenden Property under Verwendung der [Property Path Syntax][1] anzugeben:
 
+````html
     <MyControl TextPath="Address.City" />
+````
     
-
 Und dann stellt man plötzlich fest, dass man mit Reflection in diesem Fall nicht sehr weit kommt. Theoretisch wäre eine Lösung zwar möglich, aber nur, wenn man bereit ist einen Parser für die Property Path Syntax zu schreiben und noch mehr Reflection in den Ring zu schicken.
 
 Es gibt allerdings eine Komponente in Silverlight und im .NET-Framework die diese Funktionalität schon fix und fertig liefert: Die Klasse `System.Windows.Data.Binding`. Das Prinzip ist einfach: Man bindet die Quelle (in diesem Fall den DataContext des Steuerelements) unter Verwendung des angegebenen Pfades an eine Property einer Helferklasse und lasse das Binding seine Arbeit tun. Wie das konkret vonstatten geht?<!--more-->

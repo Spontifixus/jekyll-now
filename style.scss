@@ -340,6 +340,22 @@ footer {
 
 // Custom styles
 
+ul.post-tag {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+}
+
+ul.post-tag li {
+    float: left;
+    margin: 10px 10px 0 0;
+    background: $lightGray;
+    border: 1px solid $gray;
+    padding: 2px 5px;
+    text-transform: lowercase;
+    font-size: 12px;
+    color: $darkGray;
+}
+
 .profile_image {
   float: left;
   margin: 0 15px 10px 0;
