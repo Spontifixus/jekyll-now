@@ -13,7 +13,11 @@ layout: default
     Geschrieben am {{ page.date | date: "%d.%m.%Y" }}
   </div>
 
-  {% include tags.html %}
+  <ul class="post-tags">
+      {% for tag in page.tags %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+  </ul>
 
   {% include disqus.html %}
 </article>
