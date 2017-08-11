@@ -24,7 +24,7 @@ Und dann stellt man plötzlich fest, dass man mit Reflection in diesem Fall nich
 Es gibt allerdings eine Komponente in Silverlight und im .NET-Framework die diese Funktionalität schon fix und fertig liefert: Die Klasse `System.Windows.Data.Binding`. Das Prinzip ist einfach: Man bindet die Quelle (in diesem Fall den DataContext des Steuerelements) unter Verwendung des angegebenen Pfades an eine Property einer Helferklasse und lasse das Binding seine Arbeit tun. Wie das konkret vonstatten geht?<!--more-->
 
 Erste Zutat ist die Helferklasse. Dies muss von `DependencyObject` ableiten und eine `DependencyProperty` bereitstellen an die man später binden kann:
-
+````csharp
     public class BindingEvaluator : DependencyObject
     {
         public static readonly DependencyProperty TargetProperty = 
@@ -39,7 +39,7 @@ Erste Zutat ist die Helferklasse. Dies muss von `DependencyObject` ableiten und 
             set { this.SetValue(TargetProperty, value); }
         }
     }
-    
+````    
 
 Für die eigentliche Auswertung erstellt man [Extension-Methoden][2] die es ermöglichen, den Wert einer Property eines Objektes sowohl auszulesen als auch zu setzen. Dazu wird ein Binding erstellt, das als Quelle das Zielobjekt erhält und als Pfad den angegeben Property Path. Anschließend kann über die `Target`-Property der `BindingEvaluator`-Klasse der Wert gelesen oder geschrieben werden:
 
