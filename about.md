@@ -10,7 +10,7 @@ Seinen zweiten Ursprung hat der Blogtitel im Wort Wissensarbeiter. Denn Software
 
 ### Über mich
 
-[Foto von Markus Rehrs](images/zugspitze_profil.jpg) Ich bin als Lead-Software-Architect bei der Zühlke Engineering GmbH in Hannover verantwortlich für die Konzeption und Implementierung von komplexen Anwendungen, nicht nur im Enterprise-Bereich, sondern auch im Bereich von Industrie- und Consumer-Produken. Darüber hinaus berate und schule ich unsere Kunden zu Frameworks, Technologien, Entwicklungsumgebungen und Entwicklungsprozessen.
+![Foto von Markus Rehrs](images/zugspitze_profil.jpg) Ich bin als Lead-Software-Architect bei der Zühlke Engineering GmbH in Hannover verantwortlich für die Konzeption und Implementierung von komplexen Anwendungen, nicht nur im Enterprise-Bereich, sondern auch im Bereich von Industrie- und Consumer-Produken. Darüber hinaus berate und schule ich unsere Kunden zu Frameworks, Technologien, Entwicklungsumgebungen und Entwicklungsprozessen.
 
 Die ersten Schritte als Programmierer habe ich Anfang der 1990er Jahre gemacht, als ich – gerade 11 Jahre alt – mit Basic2 unter MS-DOS bunte Kreise auf den Bildschirm gezeichnet habe. Die Faszination den Computer nach meiner Pfeife tanzen zu lassen hat mich seitdem nicht mehr losgelassen. Konsequenterweise (wenn auch nicht immer optimalerweise) ging es dann weiter über QBasic und VisualBasic bis hin zum damals ganz neuen .NET-Framework. Mittlerweile sind auch Web-Technologien wie JavaScript, node.js und natürlich Frameworks wie Aurelia und Angular aus meinem Arbeitsalltag nicht mehr wegzudenken.
 
