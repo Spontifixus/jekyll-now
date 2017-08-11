@@ -43,6 +43,7 @@ Erste Zutat ist die Helferklasse. Dies muss von `DependencyObject` ableiten und 
 
 Für die eigentliche Auswertung erstellt man [Extension-Methoden][2] die es ermöglichen, den Wert einer Property eines Objektes sowohl auszulesen als auch zu setzen. Dazu wird ein Binding erstellt, das als Quelle das Zielobjekt erhält und als Pfad den angegeben Property Path. Anschließend kann über die `Target`-Property der `BindingEvaluator`-Klasse der Wert gelesen oder geschrieben werden:
 
+````csharp
     public static class ObjectExtensions
     {
         public static object GetPropertyValue(this object source, 
@@ -75,7 +76,7 @@ Für die eigentliche Auswertung erstellt man [Extension-Methoden][2] die es erm�
             evaluator.Target = value;
         }
     }
-    
+````    
 
 Dabei ist zu beachten, dass in der Methode `SetPropertyValue` das Binding als TwoWay-Binding konfiguriert wird, da der Wert ansonsten nicht auf das Zielobjekt zurückgeschrieben wird.
 
