@@ -269,19 +269,9 @@ nav {
   }
   
   .highlight {
-    overflow: auto;
-    -webkit-box-shadow: none;
-  	-moz-box-shadow: none;
-  	box-shadow: none;
-
     pre {
       border: 0px;
-      background: $lightGray;
-    }
-
-    code {
-      font-size: 14px;
-      font-family: $mono;
+      background: #efefef;
     }
   }
 
@@ -289,19 +279,34 @@ nav {
     text-align: justify;
   
     code {
-      background: $lightGray;
-      font-family: $mono;
-      font-size: 14px;
+      background: #efefef;
       padding: 1px 3px;
+    }
+  }
+
+  ul {
+    .post-tags {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        float: left;
+        margin: 0 10px 0 0;
+        background: #efefef;
+        border: 1px solid #ddd;
+        padding: 4px 5px;
+        text-transform: lowercase;
+        font-size: 14px;
+        color: $gray;
+      }
     }
   }
 
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    border-left: 2px solid #ddd;
     padding: 0.1em 1em;
     color: $gray;
-    font-style: italic;
   }
 
   .comments {
@@ -334,25 +339,6 @@ footer {
     a {
       font-size: 12px;
       margin-left: 5px;
-    }
-  }
-}
-
-// Custom styles
-ul {
-  .post-tags {
-    list-style-type: none;
-    padding-left: 0;
-
-    li {
-      float: left;
-      margin: 10px 10px 0 0;
-      background: #efefef;
-      border: 1px solid #ddd;
-      padding: 4px 5px;
-      text-transform: lowercase;
-      font-size: 14px;
-      color: $gray;
     }
   }
 }
