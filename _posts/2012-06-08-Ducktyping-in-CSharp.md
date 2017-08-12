@@ -27,7 +27,7 @@ public class Vogel
     public void Quaken() { ... }
 }
 ````
-    
+
 Die Klasse `Vogel` hat zwar die Methoden `Watscheln()` und `Quaken()`, leitet aber (aus welchen Gründen auch immer) nicht vom Interface `IEnte` ab. Hier braucht man also einen Wrapper, der ein Objekt vom Typ `Vogel` in einer Klasse verpackt, die `IEnte` implementiert. Das hört sich leicht an, hat aber seine Tücken - und war vor .NET 4 unmöglich. Denn ein Objekt vom `Vogel` kann nicht auf `IEnte` gecastet werden, das würde einen Compilerfehler verursachen. An dieser Stelle kommt das keyword `dynamic` ins Spiel. Die [MSDN-Dokumentation][1] sagt dazu:
 
 > "Der `dynamic`-Typ ermöglicht die Vorgänge, in denen die Überprüfung des Kompilierzeittyps umgangen wird. Stattdessen werden diese Vorgänge zur Laufzeit aufgelöst."
