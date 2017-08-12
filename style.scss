@@ -284,23 +284,21 @@ nav {
     }
   }
 
-  ul {
-    .post-tags {
-      list-style-type: none;
-      padding-left: 0;
+.post-tags {
+  list-style-type: none;
+  padding-left: 0;
 
-      li {
-        float: left;
-        margin: 0 10px 0 0;
-        background: #efefef;
-        border: 1px solid #ddd;
-        padding: 4px 5px;
-        text-transform: lowercase;
-        font-size: 14px;
-        color: $gray;
-      }
-    }
+  li {
+    float: left;
+    margin: 0 10px 0 0;
+    background: #efefef;
+    border: 1px solid #ddd;
+    padding: 4px 5px;
+    text-transform: lowercase;
+    font-size: 14px;
+    color: $gray;
   }
+}
 
   blockquote {
     margin: 1.8em .8em;

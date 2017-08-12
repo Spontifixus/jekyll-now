@@ -89,7 +89,7 @@ this.DataContext.SetPropertyValue("Address.City", "Hannover");
 
 Keine Lösung kommt ohne Nachteile aus. Es ist unumstritten, dass Reflection teuer ist. Aber: Die hier vorgestellte Variante ist noch teurer. Liest man einen einfach verschachtelten Property Path (also z.B. "Address.City") eine Million mal mit Reflection aus dauert das insgesamt knapp 600 Millisekunden. Verwendet man zum Lesen der Daten stattdessen den oben vorgestellten Ansatz dauert der Vorgang gute 26 Sekunden!
 
-**Fazit:** Muss man nur ab und an den Wert einer Property unter Verwendung eines Property Path auslesen ist der hier vorgestellte Weg eine gute Möglichkeit. Zur Massenverarbeitung ist er aber definitiv ungeeignet...
+**Fazit:** Muss man nur ab und an den Wert einer Property unter Verwendung eines Property Path auslesen ist der hier vorgestellte Weg eine gute Möglichkeit. Zur Massenverarbeitung ist er aber definitiv ungeeignet.
 
  [1]: http://msdn.microsoft.com/en-us/library/cc645024%28v=vs.95%29.aspx
  [2]: http://msdn.microsoft.com/en-us//library/bb383977.aspx
