@@ -2,6 +2,7 @@
 layout: post
 title: Wenn es watschelt und quakt&#58; Ducktyping in C#
 tags: .net c# duck-typing dynamic
+excerpt_separator: <!--more-->
 ---
 
 > *"When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck."*  
