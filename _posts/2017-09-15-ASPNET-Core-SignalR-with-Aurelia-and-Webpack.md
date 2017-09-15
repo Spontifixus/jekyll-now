@@ -5,8 +5,6 @@ tags: aspnet-core signalr aurelia webpack typescript
 excerpt_separator: <!--more-->
 ---
 
-# SignalR for ASP.NET Core 2.0 with Aurelia and Webpack 
-
 Just today (September 15, 2017) Microsoft announced the [first alpha version of **SignalR for ASP.NET Core 2.0**][1]. Now these are great news! I immediately had to try this out with my favorite way of building web apps: The [Aurelia framework][2]. I can already say: It works like a charm. But let me start from the beginning.
 
 > **TL;DR** If you do not want to follow this tutorial and just want the code, go ahead, have a look at my [Aurelia Playground over on GitHub][3]!
