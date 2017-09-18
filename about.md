@@ -16,4 +16,4 @@ Die ersten Schritte als Programmierer habe ich Anfang der 1990er Jahre gemacht, 
 
 Zwischendurch führten und führen mich ein paar Abstecher zu Programmiersprachen wie PHP, Python oder Java. Schon während meinem Studium an der Hochschule Bremerhaven (die ich 2007 als Dipl.-Ing. (FH) der Medizintechnik verließ) arbeitete ich als Web-Entwickler für eine Bremerhavener Werbeagentur. Erste Berufliche Erfahrungen sammelte ich dann bei Siemens in Hamburg wo ich an der Entwicklung einer modularen, integrierten Leitstandsapplikation für den ÖPNV beteiligt war. Wer schonmal in Hannover mit der üstra unterwegs war durfte die Früchte meiner Arbeit genießen.
 
-Wenn ich nicht gerade vor dem Computer sitze spiele ich mich mit meinen Kindern, auf meinem Klavier oder mit meiner Gartenbahn – manchmal auch gerne mehrere dieser Aktivitäten gleichzeitig.
+Wenn ich nicht gerade vor dem Computer sitze spiele ich mich mit meinen Kindern, auf meinem Klavier oder mit meiner Gartenbahn – manchmal auch gerne mehrere dieser Aktivitäten gleichzeitig...
